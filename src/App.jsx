@@ -1,5 +1,15 @@
+import Header from "./layouts/Header";
+import Service from "./pages/Service";
+
 function App() {
-  return <h1 className="text-center">Naxa frontend challenge</h1>;
+  return (
+    <div>
+      <Header />
+      <main>
+        <Service />
+      </main>
+    </div>
+  );
 }
 
 export default App;
